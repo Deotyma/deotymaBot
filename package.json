@@ -1,0 +1,20 @@
+{
+  "name": "deotymabot",
+  "version": "1.0.0",
+  "description": "bot for twetter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "author": "Deotyma",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "twit": "^2.2.11"
+  }
+}
