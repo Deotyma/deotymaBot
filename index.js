@@ -16,3 +16,10 @@ var T = new Twit({
     console.log(data)
   }) */
 
+  const randomQuote = async () =>{
+      const response = await axios.get('https://programming-quotes-api.herokuapp.com/Quotes/random');
+      const quote = `${await response.data.en} - ${await response.data.author}`;
+      return quote
+  };
+  randomQuote();
+
